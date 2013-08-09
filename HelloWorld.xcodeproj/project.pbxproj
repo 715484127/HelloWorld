@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4C0EE5D31768BEC4002BD02D /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C0EE5D21768BEC4002BD02D /* Dog.m */; };
 		4C90E557175CDAC600BB6D87 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C90E556175CDAC500BB6D87 /* Foundation.framework */; };
 		4C90E55A175CDAC600BB6D87 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C90E559175CDAC600BB6D87 /* main.m */; };
 		4C90E55E175CDAC600BB6D87 /* HelloWorld.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 4C90E55D175CDAC600BB6D87 /* HelloWorld.1 */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4C0EE5D11768BEC4002BD02D /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		4C0EE5D21768BEC4002BD02D /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 		4C90E553175CDAC500BB6D87 /* HelloWorld */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HelloWorld; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C90E556175CDAC500BB6D87 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4C90E559175CDAC600BB6D87 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -48,6 +51,8 @@
 		4C90E54A175CDAC500BB6D87 = {
 			isa = PBXGroup;
 			children = (
+				4C0EE5D11768BEC4002BD02D /* Dog.h */,
+				4C0EE5D21768BEC4002BD02D /* Dog.m */,
 				4C90E558175CDAC600BB6D87 /* HelloWorld */,
 				4C90E555175CDAC500BB6D87 /* Frameworks */,
 				4C90E554175CDAC500BB6D87 /* Products */,
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C90E55A175CDAC600BB6D87 /* main.m in Sources */,
+				4C0EE5D31768BEC4002BD02D /* Dog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +248,7 @@
 				4C90E563175CDAC600BB6D87 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
